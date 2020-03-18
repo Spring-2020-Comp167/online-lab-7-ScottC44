@@ -44,11 +44,21 @@ public class Main extends Course{
             String publisher = read.nextLine();
             String edition = read.nextLine();
 
+            Instructor instr = new Instructor();
+            instr.setFirstname(instruct[0]);
+            instr.setLastname(instruct[1]);
+            instr.setOfficebuilding(instruct[2]);
+            instr.setRoomNumber(Integer.parseInt(instruct[3]));
+
+            Textbook txtb = new Textbook();
+            txtb.setTitle(title);
+            txtb.setPublisher(publisher);
+            txtb.setEdition(((Integer.parseInt(edition))));
+
             String name = coursename[0];
             String semester = coursename[1];
-            String inst = instruct[0] + instruct[1] + instruct[2] +instruct[3];
-            String text = title+" "+publisher+" "+edition;
-            courses.add(new Course(name,  semester, inst, text));
+
+            courses.add(new Course(name,  semester, instr, txtb));
 
 
         }
