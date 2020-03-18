@@ -3,10 +3,10 @@ Scott Cromling
 Lab7
  */
 public class Course {
-    private String name;
-    private String semester;
-    private Instructor instructor;
-    private Textbook textbook;
+    static String name;
+    static String semester;
+    static Instructor instructor;
+    static Textbook textbook;
 
 
     public Course() {
@@ -22,6 +22,8 @@ public class Course {
         this.instructor = instructor;
         this.textbook = textbook;
     }
+
+
 
     public String getName() {
         return name;
