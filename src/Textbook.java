@@ -1,3 +1,7 @@
+/*
+Scott Cromling
+Lab7
+ */
 public class Textbook {
     private String title;
     private String publisher;
@@ -15,7 +19,6 @@ public class Textbook {
         this.publisher = publisher;
         this.edition = edition;
     }
-
 
     public String getTitle() {
         return title;
