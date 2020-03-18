@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7bbb26-0880-424b-baba-270ad7a041c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CourseScheduler/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CourseScheduler/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Textbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Textbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="185" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,44 +72,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584540765725" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1584560577697">
+    <state width="1167" height="279" key="GridCell.Tab.0.bottom" timestamp="1584540838173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584560577697" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1584560577697">
+    <state width="1167" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584540838173" />
+    <state width="1167" height="279" key="GridCell.Tab.0.center" timestamp="1584540838173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584560577697" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1584560577697">
+    <state width="1167" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584540838173" />
+    <state width="1167" height="279" key="GridCell.Tab.0.left" timestamp="1584540838173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584560577697" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1584560577697">
+    <state width="1167" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584540838173" />
+    <state width="1167" height="279" key="GridCell.Tab.0.right" timestamp="1584540838173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584560577697" />
-    <state width="1034" height="347" key="GridCell.Tab.1.bottom" timestamp="1584552707778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1034" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584552707778" />
-    <state width="1034" height="347" key="GridCell.Tab.1.center" timestamp="1584552707778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1034" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584552707778" />
-    <state width="1034" height="347" key="GridCell.Tab.1.left" timestamp="1584552707778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1034" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584552707778" />
-    <state width="1034" height="347" key="GridCell.Tab.1.right" timestamp="1584552707778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1034" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584552707778" />
-    <state x="826" y="260" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584552643318">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="826" y="260" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584552643318" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CourseScheduler$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1584551003757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state width="1167" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584540838173" />
   </component>
 </project>
