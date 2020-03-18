@@ -26,8 +26,8 @@ public class Main extends Course{
         ArrayList<String> courses = new ArrayList<>();
 
         readCourseData( courses,  "coursedata.txt");
-        for(int i = 0;i<courses.size();i++)
-        System.out.println(courses.toString());
+        //for(int i = 0;i<courses.size();i++)
+        //System.out.println(courses.toString());
 
 
 
@@ -43,12 +43,13 @@ public class Main extends Course{
             String title = read.nextLine();
             String publisher = read.nextLine();
             String edition = read.nextLine();
+            String noWhite = instruct[3].replaceAll("\\s+","");
 
             Instructor instr = new Instructor();
             instr.setFirstname(instruct[0]);
             instr.setLastname(instruct[1]);
             instr.setOfficebuilding(instruct[2]);
-            instr.setRoomNumber(Integer.parseInt(instruct[3]));
+            instr.setRoomNumber(Integer.parseInt(noWhite));
 
             Textbook txtb = new Textbook();
             txtb.setTitle(title);
@@ -59,6 +60,7 @@ public class Main extends Course{
             String semester = coursename[1];
 
             courses.add(new Course(name,  semester, instr, txtb));
+            System.out.println(courses.toString());
 
 
         }

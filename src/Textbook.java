@@ -48,6 +48,6 @@ public class Textbook {
     @Override
     public String toString() {
         return title + System.lineSeparator()+ publisher
-                +System.lineSeparator()+ "" + edition;
+                +System.lineSeparator() + edition+System.lineSeparator();
     }
 }
